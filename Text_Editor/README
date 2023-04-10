@@ -1,0 +1,25 @@
+features of our text editors are: 
+
+Jframe -> menubar -> | file name
+   |                 | Edit menu
+   |-> Text Area
+
+file menu -> | new file
+             | open file
+             | save file
+
+edit menu -> | cut
+             | copy
+             | paste
+             | select all
+             | close 
+
+open file -> file chooser -> select path -> click on open button -> copy and paste the text of file to text editor.
+
+final touch
+
+we wamt to make text area scrollable 
+so our new structure is 
+
+frame -> namubar -> ------
+   |-> panel -> scroll pane -> text area
